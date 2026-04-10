@@ -14,8 +14,9 @@ function App() {
         <div>
           <h1>Question 1</h1>
           <p style={{ maxWidth: "50ch" }}>
-            Adjust the grid size for both X and Y to calculate the possible
-            paths from the top-left corner to the bottom-right corner.
+            Starting from the top left cell. You can only move down or right.
+            Calculate the number of ways you can navigate (paths) from the top
+            left cell to all cells in a X by Y grid.
           </p>
         </div>
 
