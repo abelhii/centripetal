@@ -20,7 +20,7 @@ type GridProps = {
 
 export function Grid({ x = 3, y = 3 }: GridProps) {
   const populateGrid = () => {
-    const grid = [[]];
+    const grid: number[][] = [[]];
 
     const calculatePaths = (i: number, j: number) => {
       const above = grid[i - 1][j];
