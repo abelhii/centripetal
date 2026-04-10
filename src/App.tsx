@@ -1,5 +1,6 @@
 import "./App.css";
 import { Question1 } from "./components/question1";
+import { Question2 } from "./components/question2";
 
 function App() {
   return (
@@ -23,6 +24,24 @@ function App() {
         </div>
 
         <Question1 />
+      </section>
+
+      <section id="spacer"></section>
+      <div className="ticks"></div>
+      <section id="spacer"></section>
+
+      <section id="center">
+        <div>
+          <h2>Question 2</h2>
+          <p style={{ maxWidth: "50ch" }}>
+            The user wants to know what the top 3 values are for each attribute
+            in this data and their tally. Create a JS program that can take in a
+            list of intelligence data and produce a data structure you believe
+            will represent what the user is asking for best.
+          </p>
+        </div>
+
+        <Question2 />
       </section>
 
       <section id="spacer"></section>

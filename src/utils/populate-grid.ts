@@ -1,7 +1,7 @@
 export function populateGrid(x: number, y: number): number[][] {
   const grid: number[][] = [[]];
 
-  const calculatePaths = (i: number, j: number) => {
+  const calculateSquare = (i: number, j: number) => {
     const above = grid[i - 1][j];
     const left = grid[i][j - 1];
     return above + left;
@@ -16,7 +16,7 @@ export function populateGrid(x: number, y: number): number[][] {
         continue;
       }
 
-      grid[i][j] = calculatePaths(i, j);
+      grid[i][j] = calculateSquare(i, j);
     }
   }
 
