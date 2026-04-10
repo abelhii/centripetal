@@ -1,0 +1,19 @@
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border: 1px solid green;
+  color: black
+}
+
+.square[data-is-last="true"] {
+  background-color: red;
+  color: white;
+}
+
+.row {
+  display: flex;
+}
