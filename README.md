@@ -25,7 +25,9 @@ pnpm dev
 
 ## Testing
 
-I have included some basic tests for the utility functions using Jest. You can run the tests with: Ø`npm run test` or `pnpm test`
+I have included some basic tests for the utility functions using Jest. You can run the tests with: 
+
+`npm run test` or `pnpm test`
 
 ## Question 1
 
